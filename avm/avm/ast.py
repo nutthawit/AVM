@@ -2,7 +2,7 @@ import collections
 
 
 ASNode = collections.namedtuple(
-    'ASTNode', ['something_1', 'something_2', 'something_3'])
+    'ASTNode', ['something_1', 'something_2', 'prev_node', 'next_node'])
 
 
 class AST:
